@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+class calculadora{
+    public static int soma(int n1, int n2){
+        return n1 + n2;
+    }
+}
 public class exe6 {
     public static void main(String[] args) {
 
@@ -35,8 +40,20 @@ public class exe6 {
                     for (int linha = 0; linha < 2; linha++) {
                         soma += matriz[linha][n3];
                     }
-
                     System.out.println("A soma da coluna " + n3 + " é: " + soma);
+
+                    case 3:
+                        System.out.print("Digite o primeiro numero ->");
+                        int num1 = scanner.nextInt();
+
+                        System.out.print("Digite o segundo numero ->");
+                        int num2 = scanner.nextInt();
+
+                        int resultado = calculadora.soma(num1, num2);
+
+                        System.out.println("O resultado é "+resultado);
+                        break;
+
             }
         }
     }
