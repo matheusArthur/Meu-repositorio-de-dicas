@@ -9,10 +9,9 @@ public class Main {
         System.out.println("Digite o nome do aluno");
         String nome = teclado.nextLine();
 
-        System.out.println("Digite a nota do aluno");
+        System.out.println("Diigite a nota do aluno");
         float nota = teclado.nextFloat();
 
         System.out.printf("A nota de %s e %.2f", nome,nota);
-
     }
 }
