@@ -5,7 +5,7 @@ class calculadora{
         return n1 + n2;
     }
 }
-public class exe6 {
+public class calculadora_basica {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

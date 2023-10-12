@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exe5 {
+public class criando_matriz {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

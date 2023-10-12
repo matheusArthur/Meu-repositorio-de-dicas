@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class exe2 {
+public class transformar_string_em_float {
     public static void main(String[] args){
 
     int idade = 30;
