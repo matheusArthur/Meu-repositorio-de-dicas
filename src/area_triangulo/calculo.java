@@ -1,4 +1,4 @@
-package area_triangulo.entidade;
+package area_triangulo;
 
 public class calculo {
     public double a,b,c;

@@ -1,9 +1,9 @@
-package exe1_estoque_classe.aplication;
+package exe1_estoque.app;
+
+import exe1_estoque.stock.Product1;
 
 import java.util.Locale;
 import java.util.Scanner;
-
-import exe1_estoque_classe.entities.Product;
 
 public class program {
 
@@ -12,17 +12,18 @@ public class program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product();
-        System.out.println("Enter product fata : ");
+        Product1 product = new Product1();
+
         System.out.println("Name : ");
         product.name = sc.nextLine();
+
         System.out.println("price : ");
         product.price = sc.nextDouble();
+
         System.out.println("Quantity in stock: ");
         product.quantity = sc.nextInt();
 
         System.out.println(product.name + ", " + product.price +", " + product.quantity);
-
 
         sc.close();
     }

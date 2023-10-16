@@ -1,9 +1,9 @@
-package area_triangulo.programa;
+package area_triangulo;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import area_triangulo.entidade.calculo;
+import area_triangulo.calculo;
 
 public class main1 {
     public static void main(String[] args) {
