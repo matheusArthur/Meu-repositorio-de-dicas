@@ -13,6 +13,9 @@ public class program {
 
         salary salaryy = new salary();
 
+        System.out.print("Enter your name: ");
+        salaryy.name = sc.nextLine();
+
         System.out.print("Enter your gross salary: ");
         salaryy.grossSalary = sc.nextDouble();
 
@@ -25,7 +28,7 @@ public class program {
         double grossSalary = sc.nextDouble();
         salaryy.addSalary(grossSalary);
 
-        System.out.println("your now salary is: "+ salaryy.grossSalary);
+        System.out.println("Hello "+salaryy.name+" your now salary is: "+ salaryy.grossSalary);
 
     }
 }
