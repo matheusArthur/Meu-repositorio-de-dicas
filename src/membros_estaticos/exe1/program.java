@@ -20,9 +20,6 @@ public class program {
         System.out.println("circumference" + String.format("%.2f",c));
         System.out.println("circumference" + String.format("%.2f",v));
         System.out.println("PI value is " + String.format("%.2f",PI));
-
-
-
         sc.close();
     }
 

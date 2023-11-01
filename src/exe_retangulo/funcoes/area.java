@@ -6,10 +6,12 @@ public class area {
     public double width;
 
     public double valueArea() {
+
         return width * length;
     }
 
     public double perimeter() {
+
         return (width + length)*2;
     }
 

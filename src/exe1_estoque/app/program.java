@@ -12,21 +12,20 @@ public class program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product1 product = new Product1();
 
         System.out.println("Name : ");
-        product.name = sc.nextLine();
+        String name = sc.nextLine();
 
         System.out.println("price : ");
-        product.price = sc.nextDouble();
+        double price = sc.nextDouble();
 
         System.out.println("Quantity in stock: ");
-        product.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
 
         System.out.println();
-
+        Product1 product = new Product1(name,price,quantity);
         System.out.println("Enter the numbers of products to be add in stock: ");
-        int quantity = sc.nextInt();
+        quantity = sc.nextInt();
         product.addProduct(quantity);
 
         System.out.println("Enter the numbers of products to be remove from stock: ");
