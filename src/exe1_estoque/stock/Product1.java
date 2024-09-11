@@ -24,5 +24,4 @@ public class Product1 {
     public String toSting(){
         return name + ", $ "+String.format("%.2f", price)+" , "+quantity+" units, Total : $" + String.format("%.2f", totalValueInStuck());
     }
-
 }
