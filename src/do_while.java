@@ -8,7 +8,7 @@ public class do_while {
 
         char r ;
         do {
-            System.out.print("Diigite a temperatura em celsius: ");
+            System.out.print("Digite a temperatura em celsius: ");
             double C = sc.nextDouble();
             double F = 9.0 * C / 5.0 + 32.0;
             System.out.println("O valor em fahrenheit é =" + F);

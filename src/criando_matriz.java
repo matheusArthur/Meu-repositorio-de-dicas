@@ -9,7 +9,7 @@ public class criando_matriz {
 
         for (int linha = 0; linha < 2; linha++) {
             for (int coluna = 0; coluna < 2; coluna++){
-                System.out.println("Digite o falor para a posiçao("+linha+","+coluna+"):");
+                System.out.println("Digite o valor para a posiçao("+linha+","+coluna+"):");
                 matriz [linha][coluna] = scanner.nextInt();
             }
 
